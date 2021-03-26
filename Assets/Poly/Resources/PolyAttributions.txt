@@ -1,0 +1,37 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Aloe Vera Plant
+Author: Shivam Jaiswal
+URL: https://poly.google.com/view/1lKoZU4ycvZ
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Gem
+Author: Wesley Thompson
+URL: https://poly.google.com/view/6K1VsAxWLwH
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Low Poly Tree
+Author: Sharif Bhuiyan
+URL: https://poly.google.com/view/fx2wJCeulDe
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: MK Golf - Low Poly
+Author: Yogoshimo 2.0
+URL: https://poly.google.com/view/2u4e9d0aePt
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Parking Lot
+Author: Alex “SAFFY” Safayan
+URL: https://poly.google.com/view/4NYtgQKdVMy
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Simple tree
+Author: Frank Lynam
+URL: https://poly.google.com/view/dsKeKhhSdOo
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
