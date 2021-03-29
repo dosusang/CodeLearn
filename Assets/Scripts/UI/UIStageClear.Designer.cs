@@ -5,7 +5,7 @@ using QFramework;
 
 namespace QFramework.Example
 {
-	// Generate Id:fa3e0c6e-39a1-4ab9-8d20-05bf5337d973
+	// Generate Id:b69cbce3-505e-4738-bbd1-0da92575e9c8
 	public partial class UIStageClear
 	{
 		public const string Name = "UIStageClear";

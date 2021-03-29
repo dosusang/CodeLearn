@@ -73,6 +73,8 @@
     <Compile Include="Assets\FrameWork\Game\PosFollwer.cs" />
     <Compile Include="Assets\FrameWork\Game\SceneFxManager.cs" />
     <Compile Include="Assets\FrameWork\ToolScript\CamPoint.cs" />
+    <Compile Include="Assets\FrameWork\ToolScript\GameDataManager.cs" />
+    <Compile Include="Assets\FrameWork\ToolScript\MyAudioPlayer.cs" />
     <Compile Include="Assets\PolyToolkit\ExampleScripts\HelloPoly.cs" />
     <Compile Include="Assets\PolyToolkit\ExampleScripts\Rotate.cs" />
     <Compile Include="Assets\PolyToolkit\ExampleScripts\ShowFeaturedExample.cs" />
@@ -300,13 +302,14 @@
     <Compile Include="Assets\Scripts\Entitys\Grass.cs" />
     <Compile Include="Assets\Scripts\Entitys\Rock.cs" />
     <Compile Include="Assets\Scripts\Entitys\Tree.cs" />
-    <Compile Include="Assets\Scripts\MyAudioPlayer.cs" />
     <Compile Include="Assets\Scripts\UI\UIMain.Designer.cs" />
     <Compile Include="Assets\Scripts\UI\UIMain.cs" />
     <Compile Include="Assets\Scripts\UI\UIMenu.Designer.cs" />
     <Compile Include="Assets\Scripts\UI\UIMenu.cs" />
     <Compile Include="Assets\Scripts\UI\UISelectStage.Designer.cs" />
     <Compile Include="Assets\Scripts\UI\UISelectStage.cs" />
+    <Compile Include="Assets\Scripts\UI\UISettings.Designer.cs" />
+    <Compile Include="Assets\Scripts\UI\UISettings.cs" />
     <Compile Include="Assets\Scripts\UI\UIStageClear.Designer.cs" />
     <Compile Include="Assets\Scripts\UI\UIStageClear.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

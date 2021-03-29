@@ -31,6 +31,7 @@ namespace QFramework.Example
 		public void FadeClose() {
 			transform.DOScale(new Vector3(1,0,0), 0.3f).onComplete = () => {
 				CloseSelf();
+				
 			};
 		}
 

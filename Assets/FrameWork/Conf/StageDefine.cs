@@ -146,6 +146,69 @@ namespace QFramework.Example {
 
             stages[6] = stage;
 
+            stage = stages[7];
+            stage.StageName = "关卡8";
+            stage.orders = new OrderType[1];
+            stage.orders[0] = OrderType.MOVE_FORWARD;
+            stage.Items = new ItemInfo[1];
+            stage.Items[0].Pos.Set(-4, 0, -3); stage.Items[0].ItemType = ItemType.GRASS;
+            stages[7] = stage;
+
+            stage = stages[8];
+            stage.StageName = "关卡9";
+            stage.orders = new OrderType[1];
+            stage.orders[0] = OrderType.MOVE_FORWARD;
+            stage.Items = new ItemInfo[1];
+            stage.Items[0].Pos.Set(-4, 0, -3); stage.Items[0].ItemType = ItemType.GRASS;
+            stages[8] = stage;
+
+            stage = stages[9];
+            stage.StageName = "关卡10";
+            stage.orders = new OrderType[1];
+            stage.orders[0] = OrderType.MOVE_FORWARD;
+            stage.Items = new ItemInfo[1];
+            stage.Items[0].Pos.Set(-4, 0, -3); stage.Items[0].ItemType = ItemType.GRASS;
+            stages[9] = stage;
+
+            stage = stages[10];
+            stage.StageName = "关卡11";
+            stage.orders = new OrderType[1];
+            stage.orders[0] = OrderType.MOVE_FORWARD;
+            stage.Items = new ItemInfo[1];
+            stage.Items[0].Pos.Set(-4, 0, -3); stage.Items[0].ItemType = ItemType.GRASS;
+            stages[10] = stage;
+
+            stage = stages[11];
+            stage.StageName = "关卡12";
+            stage.orders = new OrderType[1];
+            stage.orders[0] = OrderType.MOVE_FORWARD;
+            stage.Items = new ItemInfo[1];
+            stage.Items[0].Pos.Set(-4, 0, -3); stage.Items[0].ItemType = ItemType.GRASS;
+            stages[11] = stage;
+
+            stage = stages[12];
+            stage.StageName = "关卡13";
+            stage.orders = new OrderType[1];
+            stage.orders[0] = OrderType.MOVE_FORWARD;
+            stage.Items = new ItemInfo[1];
+            stage.Items[0].Pos.Set(-4, 0, -3); stage.Items[0].ItemType = ItemType.GRASS;
+            stages[12] = stage;
+
+            stage = stages[13];
+            stage.StageName = "关卡14";
+            stage.orders = new OrderType[1];
+            stage.orders[0] = OrderType.MOVE_FORWARD;
+            stage.Items = new ItemInfo[1];
+            stage.Items[0].Pos.Set(-4, 0, -3); stage.Items[0].ItemType = ItemType.GRASS;
+            stages[13] = stage;
+
+            stage = stages[14];
+            stage.StageName = "关卡15";
+            stage.orders = new OrderType[1];
+            stage.orders[0] = OrderType.MOVE_FORWARD;
+            stage.Items = new ItemInfo[1];
+            stage.Items[0].Pos.Set(-4, 0, -3); stage.Items[0].ItemType = ItemType.GRASS;
+            stages[14] = stage;
         }
         StageDefine() {
             

@@ -26,13 +26,19 @@ namespace QFramework.Example {
         public int NowStage;
         private void Awake() {
             ResMgr.Init();
+            InitAudio();
         }
         // Start is called before the first frame update
+
+        private void InitAudio() {
+            AudioKit.MusicPlayer.SetVolume(GameDataManager.GetFloat("MucisValue"));
+            AudioKit.VoicePlayer.SetVolume(GameDataManager.GetFloat("SoundValue"));
+        }
         void Start() {
-            //UIKit.OpenPanel("UIMenu");
+            UIKit.OpenPanel("UIMenu");
 
             //test
-            GameStart(6);
+            //GameStart(6);
         }
 
         public void GameStart(int id) {

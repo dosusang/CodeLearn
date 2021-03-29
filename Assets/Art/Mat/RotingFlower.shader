@@ -38,7 +38,7 @@ Shader "ShaderMan/RotingFlower"
 	//Variables
 
 	fixed shine_f(){
-    fixed x = _Time.y;
+    fixed x = _Time.y * 2.;
     return pow(sin(x/5.)*sin(x/2.)*sin(2.*x), 2.) + .2;
 }
 
@@ -71,7 +71,7 @@ Shader "ShaderMan/RotingFlower"
     curve = exp(length(q) * 5.) - 1.3;
     curve *= shine_f();
     curve *= 6.;
-    curve += cos((atan2( q.y,q.x) + _Time.y) * 6.) * .3; 
+    curve += cos((atan2( q.y,q.x) + _Time.y * 2.) * 6.) * .3; 
     shine = lerp(fixed3(1.,1.,1.), shine, curve);
 	shine = frac(shine);
 	shine += 0.5f;

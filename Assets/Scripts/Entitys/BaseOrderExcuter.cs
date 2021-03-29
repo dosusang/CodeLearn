@@ -127,6 +127,7 @@ namespace QFramework.Example {
             form.MoveLine(nowLine);
             status = nowStatus.COMPELETED;
             if (GameMode1Manager.Instance.CheckClear()) {
+                GameDataManager.SetBool(GameMode1Manager.Instance.NowStage + "cleared", true);
                 UIKit.OpenPanel<UIStageClear>();
             } else {
                 form.UpdateLog(str2);
