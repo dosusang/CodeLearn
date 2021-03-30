@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3239671055
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8cadfef0e5f44237cce57524ea133889
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Audio/CoarseClick_Minimal.wav
+Dependencies: []

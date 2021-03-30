@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4010768331
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 46a8eec2940e3b6b84d380cf1a5844e6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Audio/Clack_Minimal.wav
+Dependencies: []

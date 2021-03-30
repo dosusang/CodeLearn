@@ -5,7 +5,7 @@ using QFramework;
 
 namespace QFramework.Example
 {
-	// Generate Id:a93f0bdf-a7ef-4560-99a7-5ae55da55106
+	// Generate Id:03470bc4-ed9d-42e2-a78c-20787fd5942c
 	public partial class UIMenu
 	{
 		public const string Name = "UIMenu";
@@ -20,6 +20,8 @@ namespace QFramework.Example
 		public UnityEngine.UI.Button ButtonAC;
 		[SerializeField]
 		public UnityEngine.UI.Button ButtonSTAFF;
+		[SerializeField]
+		public UnityEngine.UI.Button ButtonQuit;
 		
 		private UIMenuData mPrivateData = null;
 		
@@ -30,6 +32,7 @@ namespace QFramework.Example
 			ButtonSetting = null;
 			ButtonAC = null;
 			ButtonSTAFF = null;
+			ButtonQuit = null;
 			
 			mData = null;
 		}

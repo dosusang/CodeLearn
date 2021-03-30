@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1930601966
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d8cdf7b84920731ea21975996350154a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/QFramework/Framework/Examples/2.ResKitExample/ResKit/LoadAssetBundleResExample/TestImage.png
+Dependencies: []

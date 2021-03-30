@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 503198094
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: textureexample1_png
+      Dependencies: {}
+    Info_1:
+      Name: sceneres_unity
+      Dependencies: {}
+    Info_2:
+      Name: battlescene_unity
+      Dependencies: {}
+    Info_3:
+      Name: testimage_png
+      Dependencies: {}
+    Info_4:
+      Name: spriteatlas_spriteatlas
+      Dependencies: {}
+    Info_5:
+      Name: assetobj_prefab
+      Dependencies: {}
+    Info_6:
+      Name: uimenu_prefab
+      Dependencies: {}
+    Info_7:
+      Name: uimain_prefab
+      Dependencies: {}
+    Info_8:
+      Name: uiselectstage_prefab
+      Dependencies: {}
+    Info_9:
+      Name: clack_minimal_wav
+      Dependencies: {}
+    Info_10:
+      Name: click3_wav
+      Dependencies: {}
+    Info_11:
+      Name: coarseclick_minimal_wav
+      Dependencies: {}
+    Info_12:
+      Name: funnyclick_minimal_wav
+      Dependencies: {}
+    Info_13:
+      Name: ping_minimal_wav
+      Dependencies: {}
+    Info_14:
+      Name: spacey_wav
+      Dependencies: {}
+    Info_15:
+      Name: uistageclear_prefab
+      Dependencies: {}
+    Info_16:
+      Name: uisettings_prefab
+      Dependencies: {}
+    Info_17:
+      Name: uistaff_prefab
+      Dependencies: {}

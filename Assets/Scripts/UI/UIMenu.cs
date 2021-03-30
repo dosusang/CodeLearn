@@ -34,6 +34,17 @@ namespace QFramework.Example
 				FadeClose();
 				UIKit.OpenPanel<UISettings>();
 			});
+			ButtonSTAFF.onClick.AddListener(() => {
+				FadeClose();
+				UIKit.OpenPanel<UISTAFF>();
+			});
+			ButtonQuit.onClick.AddListener(() => {
+#if UNITY_EDITOR
+				UnityEditor.EditorApplication.isPlaying = false;
+#else
+				Application.Quit();
+#endif
+			});
 		}
 		public void FadeClose() {
 			transform.DOScale(Vector3.zero, 0.3f).onComplete = () => {
@@ -43,7 +54,10 @@ namespace QFramework.Example
 
 		protected override void OnShow() {
 			AudioKit.PlayMusic(GameDefine.Instance.AudioPathPrefix + "8bitAdvantrue");
-			//AudioKit.MusicPlayer.SetVolume(0.5f);无法生效
+			this.Delay(0.1f, () => {
+				AudioKit.MusicPlayer.SetVolume(GameDataManager.GetFloat("MusicValue"));
+				AudioKit.VoicePlayer.SetVolume(GameDataManager.GetFloat("SoundValue"));
+			});
 			transform.localScale = Vector3.zero;
 			transform.DOScale(Vector3.one, 0.3f);
 		}

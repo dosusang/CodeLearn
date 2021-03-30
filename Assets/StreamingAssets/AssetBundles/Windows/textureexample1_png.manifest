@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2345134240
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 33347b759e10b92bf94697ae1ddcd04f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/QFramework/Framework/Examples/2.ResKitExample/ResLoaderRelateUnloadAsset/TextureExample1.png
+Dependencies: []

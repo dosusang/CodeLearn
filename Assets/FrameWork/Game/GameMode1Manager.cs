@@ -26,14 +26,9 @@ namespace QFramework.Example {
         public int NowStage;
         private void Awake() {
             ResMgr.Init();
-            InitAudio();
         }
         // Start is called before the first frame update
 
-        private void InitAudio() {
-            AudioKit.MusicPlayer.SetVolume(GameDataManager.GetFloat("MucisValue"));
-            AudioKit.VoicePlayer.SetVolume(GameDataManager.GetFloat("SoundValue"));
-        }
         void Start() {
             UIKit.OpenPanel("UIMenu");
 
@@ -59,14 +54,19 @@ namespace QFramework.Example {
             MoveCam(-1);
             uIMain.FadeClose();
             this.Delay(1.8f, () => {
-                uIMain = (UIMain)UIKit.OpenPanel("UIMain");         
+                if (StageDefine.Instance.stages.Length > NowStage) {
+                    uIMain = (UIMain)UIKit.OpenPanel("UIMain");
+                    this.Delay(0.2f, () => {
+                        CreateGrass();
+                        CreateCar();
+                        SetOrder(NowStage);
+                        MoveCam();
+                    });
+                } else {
+                    UIKit.OpenPanel<UISTAFF>();
+                }
             });
-            this.Delay(2.0f, () => {
-                CreateGrass();
-                CreateCar();
-                SetOrder(NowStage);
-                MoveCam();
-            });
+            
         }
 
         void SetOrder(int id) {

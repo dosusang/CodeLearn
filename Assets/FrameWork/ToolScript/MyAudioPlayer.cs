@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 namespace QFramework.Example {
-    public class MyAudioPlayer : MonoBehaviour {
+    public class MyAudioPlayer : MonoSingleton<MyAudioPlayer> {
+
         private string path_prefix = GameDefine.Instance.AudioPathPrefix;
         public void PlayVoice(string path) {
             AudioKit.PlayVoice(path_prefix+path);

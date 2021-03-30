@@ -12,6 +12,7 @@ namespace QFramework.Example {
         public OrderType order = OrderType.NONE;
 
         public virtual void OnBeginDrag(PointerEventData eventData) {
+            MyAudioPlayer.Instance.PlayVoice("CoarseClick_Minimal");
             if (m_status == OrderStatus.IS_BASE) {
                 var obj_clone = Instantiate(gameObject, transform.position, transform.rotation);
                 obj_clone.name = gameObject.name;
@@ -27,6 +28,7 @@ namespace QFramework.Example {
         }
 
         public virtual void OnEndDrag(PointerEventData eventData) {
+            MyAudioPlayer.Instance.PlayVoice("Spacey");
             if (tarRoot != null) {
                 tarRoot.TryInsert(gameObject);
             } else {

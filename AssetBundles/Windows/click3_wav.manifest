@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2101302420
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 46a6970b6a8a0fb178795b45b1451260
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Audio/Click3.wav
+Dependencies: []

@@ -285,6 +285,7 @@
     <Compile Include="Assets\QFramework\Framework\Plugins\UIKit\UIMark.cs" />
     <Compile Include="Assets\QFramework\Framework\Plugins\ZipFileHelper.cs" />
     <Compile Include="Assets\QFramework\Framework\QMsgSpan.cs" />
+    <Compile Include="Assets\QFrameworkData\QAssets.cs" />
     <Compile Include="Assets\Scripts\BehaviorCTest.cs" />
     <Compile Include="Assets\Scripts\CodeGenerator.cs" />
     <Compile Include="Assets\Scripts\ConstomUI\BaseOrder.cs" />
@@ -294,6 +295,7 @@
     <Compile Include="Assets\Scripts\ConstomUI\OrderHolder.cs" />
     <Compile Include="Assets\Scripts\ConstomUI\OrderStatus.cs" />
     <Compile Include="Assets\Scripts\ConstomUI\OrderType.cs" />
+    <Compile Include="Assets\Scripts\ConstomUI\Scoller.cs" />
     <Compile Include="Assets\Scripts\ConstomUI\SliderView.cs" />
     <Compile Include="Assets\Scripts\ConstomUI\StageButton.cs" />
     <Compile Include="Assets\Scripts\ConstomUI\StageCreator.cs" />
@@ -306,6 +308,8 @@
     <Compile Include="Assets\Scripts\UI\UIMain.cs" />
     <Compile Include="Assets\Scripts\UI\UIMenu.Designer.cs" />
     <Compile Include="Assets\Scripts\UI\UIMenu.cs" />
+    <Compile Include="Assets\Scripts\UI\UISTAFF.Designer.cs" />
+    <Compile Include="Assets\Scripts\UI\UISTAFF.cs" />
     <Compile Include="Assets\Scripts\UI\UISelectStage.Designer.cs" />
     <Compile Include="Assets\Scripts\UI\UISelectStage.cs" />
     <Compile Include="Assets\Scripts\UI\UISettings.Designer.cs" />

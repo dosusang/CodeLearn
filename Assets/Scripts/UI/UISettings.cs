@@ -42,11 +42,12 @@ namespace QFramework.Example
 				GameDataManager.SetFloat("FirstFlag", 1);
 				GameDataManager.SetBool("NeedTips", false);
 			}
-			music_value.value = GameDataManager.GetFloat("MucisValue");
+			music_value.value = GameDataManager.GetFloat("MusicValue");
 			music_value.onValueChanged.AddListener((float value) => {
 				AudioKit.MusicPlayer.SetVolume(value);
 			});
 			sound_value.onValueChanged.AddListener((float value) => {
+				MyAudioPlayer.Instance.PlayVoice("CoarseClick_Minimal");
 				AudioKit.VoicePlayer.SetVolume(value);
 			});
 			sound_value.value = GameDataManager.GetFloat("SoundValue");
@@ -54,7 +55,7 @@ namespace QFramework.Example
 		}
 
 		public void FadeClose() {
-			GameDataManager.SetFloat("MucisValue", music_value.value);
+			GameDataManager.SetFloat("MusicValue", music_value.value);
 			GameDataManager.SetFloat("SoundValue", sound_value.value);
 			GameDataManager.SetBool("NeedTips", need_tips.isOn);
 			transform.DOScale(Vector3.zero, 0.3f).onComplete = () => {
